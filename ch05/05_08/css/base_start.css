@@ -79,6 +79,10 @@ img{
 
 .productJumpMenu {
     margin: auto; /* m:a */
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+    
 }
 
 .productJumpMenu li {
@@ -114,3 +118,23 @@ img{
     margin-bottom: 1.0em; /* mb:1.0 */
 }
 
+
+@media screen and (min-width: 650px) {
+
+    .productJumpMenu {
+        max-width: 650px;
+        padding: 2px 0;
+    }
+
+    .productDescrip {
+        border-bottom: 0;
+    }
+
+    .section.productList{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        flex-direction: row;
+    }
+    
+}

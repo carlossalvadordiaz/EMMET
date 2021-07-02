@@ -45,19 +45,8 @@ body {
 a#bee {
     position: absolute;
     top: 30%;
-    -webkit-animation: buzz;
-    -o-animation: buzz;
-    animation: buzz;
-    -webkit-animation-duration: 8s;
-    -o-animation-duration: 8s;
-    animation-duration: 8s;
-    -webkit-animation-timing-function: ease-in-out;
-    -o-animation-timing-function: ease-in-out;
-    animation-timing-function: ease-in-out;
-    -webkit-animation-iteration-count: infinite;
-    -o-animation-iteration-count: infinite;
-    animation-iteration-count: infinite;
-}
+    animation: 
+     duration timing-function delay iteration-count direction fill-mode;
 
 
 
